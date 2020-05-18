@@ -1,6 +1,7 @@
 #include "vector.h"
 #include <math.h>
 #include <random>
+
 template<typename T>
 void Vector<T>::copyFrom(T const* A, Rank lo, Rank hi)
 {
