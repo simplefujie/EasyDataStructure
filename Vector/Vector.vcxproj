@@ -147,10 +147,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="vector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="vector.h" />
+    <ClInclude Include="vector_call_by_rand.h" />
+    <ClInclude Include="vector_expand.h" />
+    <ClInclude Include="vector_implementation.h" />
+    <ClInclude Include="vector_insert.h" />
+    <ClInclude Include="vector_showElements.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
